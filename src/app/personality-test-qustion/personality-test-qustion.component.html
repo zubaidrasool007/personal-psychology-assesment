@@ -1,0 +1,83 @@
+<p-steps class="stepper" [model]="items" [readonly]="true" [(activeIndex)]="activeIndex" (click)="read($event)">
+</p-steps>
+
+<div class="main">
+
+  <div *ngIf=" activeIndex===0 " class="qustion">
+    <h2>Q.NO.1</h2>
+    <h4>You’re really busy at work and a colleague is telling you their life story and personal woes. You:</h4>
+    <div *ngFor="let data of  questionOne" class="radiobtn">
+      <p-radioButton required name="qustionOne" #qustionOne="ngModel" [value]="data.value"
+        (onClick)="changevalue(data.value)" [inputId]="data.firstqustion" [(ngModel)]=selectedValue></p-radioButton>
+
+      <label [for]="data.firstqustion">{{data.Option}}</label>
+    </div>
+    <div class="btnstyle">
+      <button [disabled]="previousbtn" class="btn" pButton type="button" (click)="previous()">Previous</button>
+      <button [disabled]="button" class="btn" pButton type="button" (click)="next()">Next</button>
+    </div>
+  </div>
+</div>
+
+<div class="main">
+  <div *ngIf=" activeIndex===1 " class="qustion">
+    <h2>Q.NO.2</h2>
+    <h4>You’ve been sitting in the doctor’s waiting room for more than 25 minutes. You:</h4>
+
+    <div *ngFor="let data of  questionTwo" class="radiobtn">
+      <p-radioButton [(ngModel)]=selectedValue required name="qustionTwo" #qustionTwo="ngModel" [value]="data.value"
+        (onClick)="changevalue(data.value)" [inputId]="data.secondqustion"></p-radioButton>
+      <label [for]="data.secondqustion">{{data.Option}}</label>
+    </div>
+    <div class="btnstyle">
+
+      <button class="btn" pButton type="button" (click)="previous()">Previous</button>
+      <button [disabled]="button" class="btn" pButton type="button" (click)="next()">Next</button>
+    </div>
+  </div>
+</div>
+<div class="main">
+  <div *ngIf=" activeIndex===2 " class="qustion">
+    <h2>Q.NO.3</h2>
+    <h4>You’re having an animated discussion with a colleague regarding a project that you’re in charge of. You:</h4>
+    <div *ngFor="let data of  questionThree" class="radiobtn">
+      <p-radioButton required name="optn3" [value]="data.value" (onClick)="changevalue(data.value)"
+        [(ngModel)]=selectedValue [inputId]="data.thirddqustion"></p-radioButton>
+      <label [for]="data.thirdqustion">{{data.Option}}</label>
+    </div>
+    <div class="btnstyle">
+      <button class="btn" pButton type="button" (click)="previous()">Previous</button>
+      <button [disabled]="button" class="btn" pButton type="button" (click)="next()">Next</button>
+    </div>
+  </div>
+</div>
+<div class="main">
+  <div *ngIf="activeIndex === 3" class="qustion">
+    <h2>Q.NO.4</h2>
+    <h4>You are taking part in a guided tour of a museum. You:</h4>
+    <div *ngFor="let data of questionFour" class="radiobtn">
+      <p-radioButton required="" name="optn4" [value]="data.value" (onClick)="changevalue(data.value)"
+        [(ngModel)]=selectedValue [inputId]="data.fourthqustion"></p-radioButton>
+      <label [for]="data.forthqustion">{{data.Option}}</label>
+    </div>
+    <div class="btnstyle">
+      <button class="btn" pButton type="button" (click)="previous()">Previous</button>
+      <button [disabled]="button" class="btn" pButton type="button" (click)="next()">Next</button>
+    </div>
+  </div>
+</div>
+<div class="main">
+  <div *ngIf=" activeIndex===4 " class="qustion">
+    <h2>Q.NO.5</h2>
+    <h4>During dinner parties at your home, you have a hard time with people who:</h4>
+    <div *ngFor="let data of questionFive" class="radiobtn">
+      <p-radioButton required name="optn5" [value]="data.value" (onClick)="changevalue(data.value)"
+        [(ngModel)]=selectedValue [inputId]="data.fifthqustion"></p-radioButton>
+      <label [for]="data.fifthqustion">{{data.Option}}</label>
+    </div>
+    <div class="btnstyle">
+      <button class="btn" pButton type="button" (click)="previous()">Previous</button>
+      <button [disabled]="button" class="btn" pButton type="button" (click)="addvalue() ">Finish</button>
+    </div>
+  </div>
+</div>
