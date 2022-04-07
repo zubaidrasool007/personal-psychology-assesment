@@ -1,6 +1,7 @@
 # PersonalityTest
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.2.
+ By using this app we take the PersonalityTest.This app give the result is extorvert or introvert.
 
 ## Development server
 
