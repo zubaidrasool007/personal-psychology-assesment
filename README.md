@@ -1,7 +1,15 @@
+## Intovert/Extrovert
+ By using this app we take the PersonalityTest.This app give the result in the form of  extorvert or introvert.
+
+ ## stack
+ - Angular App
+ - Prime ng
+ - app-routing
+
 # PersonalityTest
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.2.
- By using this app we take the PersonalityTest.This app give the result is extorvert or introvert.
+
 
 ## Development server
 
