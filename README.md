@@ -1,10 +1,11 @@
 ## Intovert/Extrovert
- By using this app we take the PersonalityTest.This app give the result in the form of  extorvert or introvert.
+ By using this app we take the Personality Assesment. A the end of the Assesment result tells you either you are an extrovert or introvert.
+
+ This assesment has five number of qustions and every qustion have four options.
 
  ## stack
  - Angular App
  - Prime ng
- - app-routing
 
 # PersonalityTest
 
