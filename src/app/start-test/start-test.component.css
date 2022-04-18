@@ -1,10 +1,10 @@
 .main{
     box-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%), 
     0 1px 3px 0 rgb(0 0 0 / 12%);
-    width: 500px;
+    /* width: 500px; */
     border-radius: 10px;
-    background-color:#3d9295 ;
-    padding: 20px;
+    background-color:#3f3f3f ;
+    /* padding: 20px; */
    
     
 }
@@ -20,7 +20,7 @@
     flex-direction: column  ;
     align-items: center;
     height: 100vh;
-    /* width: auto; */
+    
     
        
 }
@@ -33,18 +33,19 @@
     width: 200px;
     border-radius: 8px;
     margin-bottom: 10px;
-    border: 1px solid #3B82F6;
-    background-color:  #3B82F6;
+    border: 1px solid white;
+    background-color:  #3f3f3f;
     font-size: 1rem;
     color: white;
     transition: all 0.5s ;
+    font-weight: bold;
 }
 .startbtn:hover{
-    background-color: #0544a8;
+    background-color:white;
     transition: all 0.5s ;
     cursor: pointer;
+    color: black;
 
 }
-.img{
-    margin-top: 10px; 
-}
+
+
