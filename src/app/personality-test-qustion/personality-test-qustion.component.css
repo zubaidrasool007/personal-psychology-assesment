@@ -17,24 +17,26 @@ h4 {
   border-radius: 10px;
   margin-top: 10px;
   color: white;
-  background-color: #3d9295;
+  background-color: #3f3f3f;;
   font-weight: 700px;
 }
 .btn {
   margin-top: 10px;
   padding: 0.50rem 1.25rem;
   border-radius: 10px;
-  border: 1px solid #3b82f6;
-  background-color: #3b82f6;
+  border: 1px solid white;
+  background-color: white;
   font-size: 1rem;
-  color: white;
+  color: black;
   font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
 
 }
 .btn:hover {
-  background-color: #0544a8;
+  background-color: #3f3f3f;
   transition: all 0.5s;
   cursor: pointer;
+  color: white;
 }
 .radiobtn {
   padding: 2px;
