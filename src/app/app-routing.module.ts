@@ -11,12 +11,12 @@ const routes: Routes = [
 
   },
   {
-    path:"qustion",
-    component:PersonalityTestQustionComponent,
+    path: "qustion",
+    component: PersonalityTestQustionComponent,
   },
   {
-    path:"result",
-    component:TestResultComponent,
+    path: "result",
+    component: TestResultComponent,
   }
 ];
 

@@ -1,4 +1,4 @@
-import { Component, OnInit,Input } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { Router } from '@angular/router';
 @Component({
   selector: 'app-test-result',
@@ -7,15 +7,14 @@ import { Router } from '@angular/router';
 })
 export class TestResultComponent implements OnInit {
   result;
-  
 
-  constructor(private router: Router) { 
-     this.result= this.router.getCurrentNavigation()?.extras?.state?.['data'];
-    console.log(this.result)
+
+  constructor(private router: Router) {
+    this.result = this.router.getCurrentNavigation()?.extras?.state?.['data'];
   }
 
   ngOnInit(): void {
   }
- 
+
 
 }
