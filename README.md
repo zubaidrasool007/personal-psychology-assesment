@@ -1,4 +1,4 @@
-## Intovert/Extrovert
+## Personality Psychology Assesment
  By using this app we take the Personality Assesment. At the end of the Assesment result tells you either you are an extrovert or introvert.
 
  This assesment has five qustions and every qustion have four options.
