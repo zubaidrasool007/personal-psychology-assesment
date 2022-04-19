@@ -1,12 +1,8 @@
 .main {
     box-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%),
         0 1px 3px 0 rgb(0 0 0 / 12%);
-    /* width: 500px; */
     border-radius: 10px;
     background-color: #3f3f3f;
-    /* padding: 20px; */
-
-
 }
 
 .body {
@@ -28,6 +24,10 @@
     color: white;
 }
 
+p-image img {
+    border-radius: 10px 10px 0 0;
+}
+
 .startbtn {
     padding: 10px;
     width: 200px;
@@ -46,5 +46,4 @@
     transition: all 0.5s;
     cursor: pointer;
     color: black;
-
 }
