@@ -1,7 +1,7 @@
 ## Intovert/Extrovert
- By using this app we take the Personality Assesment. A the end of the Assesment result tells you either you are an extrovert or introvert.
+ By using this app we take the Personality Assesment. At the end of the Assesment result tells you either you are an extrovert or introvert.
 
- This assesment has five number of qustions and every qustion have four options.
+ This assesment has five qustions and every qustion have four options.
 
  ## stack
  - Angular App
