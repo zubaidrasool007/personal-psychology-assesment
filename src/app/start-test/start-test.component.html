@@ -1,14 +1,11 @@
 <div class="container">
-    <div class="main">
-        <div class="body">
-            <div class="img">
-                <p-image
-                    src="https://i0.wp.com/psych2go.net/wp-content/uploads/2017/11/who-are-you.png?fit=640%2C405&ssl=1"
-                    alt="thinking imag" width="450px"></p-image>
-            </div>
-            <div>
-                <button class="startbtn" routerLink="/qustion">Start Test</button>
-            </div>
-        </div>
-    </div>
+
+<p-card header="Are You an Extrovert or Introvert?" subheader="Discover where you fall on the introvert-extrovert spectrum." [style]="{width: '360px', backgroundColor:' #3f3f3f', color:'white' }" styleClass="p-card-shadow">
+    <ng-template pTemplate="header">
+        <img alt="Card" src="https://img.freepik.com/free-vector/illustration-human-brain_53876-8103.jpg?size=338&ext=jpg&ga=GA1.2.1747815935.1654175519">
+    </ng-template>
+    <ng-template pTemplate="footer">
+        <p-button class="startbtn" label="Strart Test"   routerLink="/qustion"></p-button>
+    </ng-template>
+</p-card>
 </div>

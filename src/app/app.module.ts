@@ -10,20 +10,27 @@ import { StartTestComponent } from './start-test/start-test.component';
 import { PersonalityTestQustionComponent } from './personality-test-qustion/personality-test-qustion.component';
 import { TestResultComponent } from './test-result/test-result.component';
 import { ImageModule } from 'primeng/image';
-
+import { CardModule } from 'primeng/card';
+import { ButtonModule } from 'primeng/button';
 
 @NgModule({
   declarations: [
     AppComponent,
     StartTestComponent,
     PersonalityTestQustionComponent,
-    TestResultComponent
+    TestResultComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule, RadioButtonModule, FormsModule, StepsModule, ImageModule
+    AppRoutingModule,
+    RadioButtonModule,
+    FormsModule,
+    StepsModule,
+    ImageModule,
+    CardModule,
+    ButtonModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

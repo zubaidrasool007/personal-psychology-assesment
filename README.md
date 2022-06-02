@@ -1,16 +1,16 @@
-## Personality Psychology Assesment
- By using this app we take the Personality Assesment. At the end of the Assesment result tells you either you are an extrovert or introvert.
+# Personality Psychology Assesment
 
- This assesment has five qustions and every qustion have four options.
+By usnig Angular and PrimeNG UI created this app. By using this app we take the Personality Assesment. In this app read the qustion and chack the radio button every option have a different value. At the end of the Assesment result tell's you either you are an extrovert or introvert. If got the high scoure then showing the result extrovert and if got low scoure then showing result introvert.
+This assesment has five qustions and every qustion have four options.
 
- ## stack
- - Angular App
- - Prime ng
+# stack
+
+- Angular App
+- Prime ng
 
 # PersonalityTest
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.2.
-
 
 ## Development server
 
