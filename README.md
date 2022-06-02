@@ -10,13 +10,13 @@ This assesment has five qustions and every qustion have four options.
 
 # PersonalityTest Preview
 
-- Start Test Page
+### Start Test Page
   ![screen1](https://user-images.githubusercontent.com/63468411/171667827-200414a6-861e-495c-b1f4-4c5a5f917086.png)
-- Qustions Page
+### Qustions Page
   ![screen2](https://user-images.githubusercontent.com/63468411/171669314-c74a395f-c617-45c3-a6f7-117c4385a539.png)
-- Result Introvert
+### Result Introvert
   ![screen3](https://user-images.githubusercontent.com/63468411/171669649-74d200ab-a6f6-4352-b631-5f1b164b6ba3.png)
-- Result Extrovert
+### Result Extrovert
   ![screen4](https://user-images.githubusercontent.com/63468411/171669856-ca009c0f-758f-4398-a140-73751b18241a.png)
 
 # PersonalityTest
